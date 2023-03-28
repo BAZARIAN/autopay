@@ -536,8 +536,8 @@ curcontent["Oplata"] = {
 	xcon: '\
     	<div class="refill-window__header">\
     		<div class="refill-window__title">Пополнение баланса\
-		<div class="svgrep"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24"><g clip-path="url(#clip0)" fill="#fff"><path d="M3.138 24h19.724C24.61 24 26 22.647 26 20.945V6.11c0-1.702-1.39-3.054-3.138-3.054h-2.241v2.618h2.241c.269 0 .448.174.448.436v9.164H2.69V6.109c0-.262.179-.436.448-.436h2.241V3.055H3.138C1.39 3.055 0 4.407 0 6.109v14.836C0 22.648 1.39 24 3.138 24zm20.172-6.11v3.055c0 .262-.179.437-.448.437H3.138c-.269 0-.448-.175-.448-.437v-3.054h20.62z"></path><path d="M11.655 0v8.204l-2.69-2.619-1.882 1.833 4.976 4.844c.538.523 1.39.523 1.882 0l4.976-4.844-1.883-1.833-2.69 2.619V0h-2.689z"></path></g><defs><clipPath id="clip0"><path fill="#fff" transform="rotate(-180 13 12)" d="M0 0h26v24H0z"></path></clipPath></defs></svg></div>\
-	</div>\
+			<div class="svgrep"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24"><g clip-path="url(#clip0)" fill="#fff"><path d="M3.138 24h19.724C24.61 24 26 22.647 26 20.945V6.11c0-1.702-1.39-3.054-3.138-3.054h-2.241v2.618h2.241c.269 0 .448.174.448.436v9.164H2.69V6.109c0-.262.179-.436.448-.436h2.241V3.055H3.138C1.39 3.055 0 4.407 0 6.109v14.836C0 22.648 1.39 24 3.138 24zm20.172-6.11v3.055c0 .262-.179.437-.448.437H3.138c-.269 0-.448-.175-.448-.437v-3.054h20.62z"></path><path d="M11.655 0v8.204l-2.69-2.619-1.882 1.833 4.976 4.844c.538.523 1.39.523 1.882 0l4.976-4.844-1.883-1.833-2.69 2.619V0h-2.689z"></path></g><defs><clipPath id="clip0"><path fill="#fff" transform="rotate(-180 13 12)" d="M0 0h26v24H0z"></path></clipPath></defs></svg></div>\
+		</div>\
     		<button class="refill-window__close">×</button>\
     	</div>\
     	<div class="refill-window__footer"><div class="refill-window__content">\
