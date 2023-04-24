@@ -615,7 +615,7 @@ curcontent["Oplata"] = {
     		</div>\
     	</div></div>'
 };
-document.getElementById("svg_mvm").innerHTML = svg_mc_visa_mir;​
+document.getElementById("svg_mvm").innerHTML = svg_mc_visa_mir;
 let btn_unlocked = 0;
 
 function ResetBtns() {
