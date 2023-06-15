@@ -516,14 +516,14 @@ curcontent["kit-free"] = {
 </div></div></div>'
 };
 
-curcontent["kit-prem2"] = {
+curcontent["kit-PLASM"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стандартные</button>\
-	<button class="btn btn-secondary active">PREM</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-elite2\', false);">ELITE</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-life2\', false);">LIFE</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-rusty2\', false);">RUSTY</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">BONUS</button>\
+	<button class="btn btn-secondary active">PLASM</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ZAP\', false);">ZAP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ATOM\', false);">ATOM</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ION\', false);">ION</button>\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/pistol.semiauto.png">\
@@ -604,14 +604,14 @@ curcontent["kit-prem2"] = {
 </div></div></div>'
 };
 
-curcontent["kit-elite2"] = {
+curcontent["kit-ZAP"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стандартные</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-prem2\', false);">PREM</button>\
-	<button class="btn btn-secondary active">ELITE</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-life2\', false);">LIFE</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-rusty2\', false);">RUSTY</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">BONUS</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-PLASM\', false);">PLASM</button>\
+	<button class="btn btn-secondary active">ZAP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ATOM\', false);">ATOM</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ION\', false);">ION</button>\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smg.2.png">\
@@ -697,14 +697,14 @@ curcontent["kit-elite2"] = {
 };
 
 
-curcontent["kit-life2"] = {
+curcontent["kit-ATOM"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стандартные</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-prem2\', false);">PREM</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-elite2\', false);">ELITE</button>\
-	<button class="btn btn-secondary active">LIFE</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-rusty\', false);">RUSTY</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">BONUS</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-PLASM\', false);">PLASM</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ZAP\', false);">ZAP</button>\
+	<button class="btn btn-secondary active">ATOM</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ION\', false);">ION</button>\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smg.mp5.png">\
@@ -802,14 +802,14 @@ curcontent["kit-life2"] = {
 };
 
 
-curcontent["kit-rusty2"] = {
+curcontent["kit-ION"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стандартные</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-prem2\', false);">PREM</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-elite2\', false);">ELITE</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-life2\', false);">LIFE</button>\
-	<button class="btn btn-secondary active">RUSTY</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">BONUS</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-PLASM\', false);">PLASM</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ZAP\', false);">ZAP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ATOM\', false);">ATOM</button>\
+	<button class="btn btn-secondary active">ION</button>\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.ak.png">\
@@ -906,15 +906,15 @@ curcontent["kit-rusty2"] = {
 
 
 curcontent["kit-free2"] = {
-	xhead: 'Стандартные киты',
+	xhead: 'Бесплатные киты',
 	xcon: '<div class="store-categories">\
-	<button class="btn btn-secondary active">Стандартные</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-prem2\', false);">PREM</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-elite2\', false);">ELITE</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-life2\', false);">LIFE</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-rusty2\', false);">RUSTY</button>\
+	<button class="btn btn-secondary active">BONUS</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-PLASM\', false);">PLASM</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ZAP\', false);">ZAP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ATOM\', false);">ATOM</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-ION\', false);">ION</button>\
 <div class="xbox_custom_kits" >\
-<div class="serverheader">Кит за "#rustylife" в нике - <span>Откат 23 часа</span></div>\
+<div class="serverheader">Кит за "#rustion" в нике - <span>Откат 23 часа</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/workbench1.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
