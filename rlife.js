@@ -704,7 +704,7 @@ curcontent["kit-life2"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-prem2\', false);">PREM</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite2\', false);">ELITE</button>\
 	<button class="btn btn-secondary active">LIFE</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-rusty\', false);">RUSTY</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-rusty2\', false);">RUSTY</button>\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smg.mp5.png">\
