@@ -55,7 +55,7 @@ curcontent["kit-prem"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-life\', false);">LIFE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-rusty\', false);">RUSTY</button>\
-	<button class="btn btn-secondary2" onclick="Open(\'kit-free2\', false);">X5 КИТЫ</button>\
+	<button class="btn btn-secondary2" onclick="Open(\'kit-prem2\', false);">X5 КИТЫ</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smg.thompson.png">\
@@ -145,7 +145,7 @@ curcontent["kit-elite"] = {
 	<button class="btn btn-secondary active">ELITE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-life\', false);">LIFE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-rusty\', false);">RUSTY</button>\
-	<button class="btn btn-secondary2" onclick="Open(\'kit-free2\', false);">X5 КИТЫ</button>\
+	<button class="btn btn-secondary2" onclick="Open(\'kit-elite2\', false);">X5 КИТЫ</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smg.mp5.png">\
@@ -240,7 +240,7 @@ curcontent["kit-life"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
 	<button class="btn btn-secondary active">LIFE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-rusty\', false);">RUSTY</button>\
-	<button class="btn btn-secondary2" onclick="Open(\'kit-free2\', false);">X5 КИТЫ</button>\
+	<button class="btn btn-secondary2" onclick="Open(\'kit-life2\', false);">X5 КИТЫ</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.ak.png">\
@@ -333,7 +333,7 @@ curcontent["kit-rusty"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-life\', false);">LIFE</button>\
 	<button class="btn btn-secondary active">RUSTY</button>\
-	<button class="btn btn-secondary2" onclick="Open(\'kit-free2\', false);">X5 КИТЫ</button>\
+	<button class="btn btn-secondary2" onclick="Open(\'kit-rusty2\', false);">X5 КИТЫ</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.ak.png">\
@@ -529,7 +529,7 @@ curcontent["kit-prem2"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite2\', false);">ELITE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-life2\', false);">LIFE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-rusty2\', false);">RUSTY</button>\
-	<button class="btn btn-secondary2" onclick="Open(\'kit-free\', false);">X1.5 КИТЫ</button>\
+	<button class="btn btn-secondary2" onclick="Open(\'kit-prem\', false);">X1.5 КИТЫ</button>\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/pistol.semiauto.png">\
@@ -618,7 +618,7 @@ curcontent["kit-elite2"] = {
 	<button class="btn btn-secondary active">ELITE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-life2\', false);">LIFE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-rusty2\', false);">RUSTY</button>\
-	<button class="btn btn-secondary2" onclick="Open(\'kit-free\', false);">X1.5 КИТЫ</button>\
+	<button class="btn btn-secondary2" onclick="Open(\'kit-elite\', false);">X1.5 КИТЫ</button>\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smg.2.png">\
@@ -712,7 +712,7 @@ curcontent["kit-life2"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite2\', false);">ELITE</button>\
 	<button class="btn btn-secondary active">LIFE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-rusty2\', false);">RUSTY</button>\
-	<button class="btn btn-secondary2" onclick="Open(\'kit-free\', false);">X1.5 КИТЫ</button>\
+	<button class="btn btn-secondary2" onclick="Open(\'kit-life\', false);">X1.5 КИТЫ</button>\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/smg.mp5.png">\
@@ -818,7 +818,7 @@ curcontent["kit-rusty2"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite2\', false);">ELITE</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-life2\', false);">LIFE</button>\
 	<button class="btn btn-secondary active">RUSTY</button>\
-	<button class="btn btn-secondary2" onclick="Open(\'kit-free\', false);">X1.5 КИТЫ</button>\
+	<button class="btn btn-secondary2" onclick="Open(\'kit-rusty\', false);">X1.5 КИТЫ</button>\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "PVP" - <span>Откат 3ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.ak.png">\
