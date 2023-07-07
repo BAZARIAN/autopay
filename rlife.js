@@ -950,9 +950,9 @@ var BlockListArrays = [
 ['shotgun.waterpipe', 'pistol.revolver'],
 ['pistol.python', 'pistol.semiauto', 'pistol.prototype17', 'pistol.m92', 'shotgun.double', 'coffeecan.helmet', 'roadsign.jacket', 'roadsign.kilt'], 
 ['shotgun.pump', 'shotgun.spas12', 'smg.2', 'smg.thompson', 'smg.mp5', 'rifle.semiauto', 'rifle.m39'],
-['rifle.ak', 'rifle.ak.ice', 'rifle.lr300', 'rifle.bolt', 'rifle.l96', 'hmlmg', 'metal.facemask', 'metal.plate.torso', 'heavy.plate.helmet', 'heavy.plate.jacket', 'heavy.plate.pants'], 
+['rifle.ak', 'rifle.lr300', 'rifle.bolt', 'rifle.l96', 'hmlmg', 'metal.facemask', 'metal.plate.torso', 'heavy.plate.helmet', 'heavy.plate.jacket', 'heavy.plate.pants'], 
 ['lmg.m249', 'grenade.f1', 'grenade.beancan'], 
-['explosive.satchel', 'ammo.rifle.explosive', 'multiplegrenadelauncher'],
+['explosive.satchel', 'ammo.rifle.explosive', 'ammo.grenadelauncher.he'],
 ['rocket.launcher', 'explosive.timed']];
 
 //#endregion
