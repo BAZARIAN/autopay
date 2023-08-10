@@ -1517,7 +1517,7 @@ function appcentHandler() {
 		},
 		body: JSON.stringify({
 			amount: inputfloat,
-			shop_id: 'WG76jKb7xl',
+			shop_id: 'dk7EgAQmKW',
 			order_id: `${CustomerSteamId}`,
 			payer_pays_commission: '1',
 			name: `Пополнение для ${CustomerSteamId}`,
