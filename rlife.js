@@ -1168,8 +1168,8 @@ function OnClickBuyBtn(event)
 	if (btn_unlocked == 9) {
 	   var inputval = document.getElementById('refill-window__amount-input').value;
 	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 1500 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = "Минимальная сумма - 1500 RUB.";
+	   if (inputfloat != 30595 || isNaN(inputfloat)) {
+		   document.getElementById('bonus-text').innerText = "Временно недоступно.";
 		   return false;
 	   } 
 	   else {
