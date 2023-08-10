@@ -1318,14 +1318,14 @@ function OnClickElement9(event) { /*ENOT.IO*/
 }
 
 function OnClickElement10(event) { /*ENOT.IO*/ 
-	/*ResetBtns();
+	ResetBtns();
 	
 	let element = document.getElementById('element10');
 	element.style.backgroundColor = colorgrayhover;
 	btn_unlocked = 10;
 	UnLockBuyBtn();
 	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");*/
+	document.getElementById('buybtn').removeAttribute("href");
 }
 
 
