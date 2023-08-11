@@ -1,3 +1,13 @@
+var images = [];
+function preload() {
+    for (var i = 0; i < arguments.length; i++) {
+        images[i] = new Image();
+        images[i].src = preload.arguments[i];
+    }
+}
+preload(
+    "https://s3.timeweb.com/a3d1c97f-maps/Assets/skins.svg"
+)
 var curcontent = new Array();
 //#region contents
 curcontent["rules"] = {
