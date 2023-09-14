@@ -1484,19 +1484,21 @@ window.onload = function () {
 	
 	for (var i = 0; i < BlockListArrays.length; i++) {
 		curcontent["block"].xcon += '<div class="block_by_category block_category_'+ (i + 1) +'">';
-		for (var b = 0; b < BlockListArrays[i].length; b++) {									 
-			if (BlockListArrays[i][b] == "pistol.prototype17") {
-			    curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2022/11/06/723437cdd667a17816dccdbdd75994c5.png">\
-				<div class="kit-item__quantity block-lvl-'+ (i + 1) +'"></div></div></div>';
-			}
-			if (BlockListArrays[i][b] == "hmlmg") {
-				curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/09/14/e5e6f583d2347ca82ecc9b4ec50db95a.png">\
-				<div class="kit-item__quantity block-lvl-'+ (i + 1) +'"></div></div></div>';
-			}
-			else {
+		for (var b = 0; b < BlockListArrays[i].length; b++) {
+			try {
 				curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/'+ BlockListArrays[i][b] +'.png">\
 				<div class="kit-item__quantity block-lvl-'+ (i + 1) +'"></div></div></div>';
 			}
+			catch {
+				if (BlockListArrays[i][b] == "pistol.prototype17") {
+					curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2022/11/06/723437cdd667a17816dccdbdd75994c5.png">\
+					<div class="kit-item__quantity block-lvl-'+ (i + 1) +'"></div></div></div>';
+				}
+				if (BlockListArrays[i][b] == "hmlmg") {
+					curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/09/14/e5e6f583d2347ca82ecc9b4ec50db95a.png">\
+					<div class="kit-item__quantity block-lvl-'+ (i + 1) +'"></div></div></div>';
+				}
+			}								 
 		}
 		curcontent["block"].xcon += '</div>';
 	}
