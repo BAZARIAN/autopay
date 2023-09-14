@@ -351,7 +351,7 @@ curcontent["kit-rusty"] = {
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.ak.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/09/14/e5e6f583d2347ca82ecc9b4ec50db95a.png">\ /*https://www.rustedit.io/images/imagelibrary/hmlmg.png*/
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/09/14/e5e6f583d2347ca82ecc9b4ec50db95a.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/rifle.bolt.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
