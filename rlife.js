@@ -1030,7 +1030,7 @@ curcontent["Oplata"] = {
     					<img class="refill-window__payment-icon" src="https://s3.timeweb.com/a3d1c97f-maps/Assets/skins.svg">\
     				</button>\
     			</li>\
-    			<li class="refill-window__payment" onclick="">\
+    			<li class="refill-window__payment" onclick="OnClickElement10(this)">\
     				<button class="refill-window__payment-btn" id="element10">\
 						<img class="refill-window__payment-icon" src="https://s3.timeweb.com/a3d1c97f-maps/Assets/telegram.svg">\
     				</button>\
