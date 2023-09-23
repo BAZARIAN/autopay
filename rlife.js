@@ -1005,7 +1005,7 @@ curcontent["Oplata"] = {
     						<div class="refill-window__payment-label">#4</div>\
     					</button>\
     				</li>\
-    			<li class="refill-window__payment" onclick="OnClickElement5(this)">\
+    			<li class="refill-window__payment" onclick="/*OnClickElement5(this)*/">\
     				<button class="refill-window__payment-btn" id="element5">\
 						<img class="refill-window__payment-icon" src="https://s3.timeweb.com/a3d1c97f-maps/Assets/paypal.svg">\
     				</button>\
