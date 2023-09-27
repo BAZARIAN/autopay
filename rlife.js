@@ -132,15 +132,6 @@ function obtainLang(e) {
 					langWipe = langWipeEN;
 					langSwitch = "en";
 					document.querySelector(":root").style.setProperty("--pseudo-content-free", `"FREE CASE"`);
-					document.querySelector('.header__image').setAttribute('src', 'https://pic.moscow.ovh/images/2023/09/27/ccd8396a1c833d402b978b4cc9e9d268.png');
-					if (document.getElementById('xbox_rules') != null &&
-						document.getElementById('xbox_kits') != null &&
-						document.getElementById('xbox_wipeblock') != null)
-					{
-						document.getElementById('xbox_rules').innerHTML = lang.rules;
-						document.getElementById('xbox_kits').innerHTML = lang.kits;
-						document.getElementById('xbox_wipeblock').innerHTML = lang.wipeBlock;
-					}					
 				}
 			}
 		}
@@ -1784,5 +1775,15 @@ function OpenOplata() {
 var DOMReady = function (a, b, c) { b = document, c = 'addEventListener'; b[c] ? b[c]('DOMContentLoaded', a) : window.attachEvent('onload', a) }
 
 window.addEventListener("load", function () {
-	
+	if (langSwitch == "en") {
+		document.querySelector('.header__image').setAttribute('src', 'https://pic.moscow.ovh/images/2023/09/27/ccd8396a1c833d402b978b4cc9e9d268.png');
+		if (document.getElementById('xbox_rules') != null &&
+			document.getElementById('xbox_kits') != null &&
+			document.getElementById('xbox_wipeblock') != null)
+		{
+			document.getElementById('xbox_rules').innerHTML = lang.rules;
+			document.getElementById('xbox_kits').innerHTML = lang.kits;
+			document.getElementById('xbox_wipeblock').innerHTML = lang.wipeBlock;
+		}
+	}
 });
