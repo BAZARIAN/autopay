@@ -48,7 +48,50 @@ let lang = {
 	wipeBlock_4: "5 ЧАСОВ",
 	wipeBlock_5: "23 ЧАСА",
 	wipeBlock_6: "24 ЧАСА",
-	wipeBlock_7: "26 ЧАСОВ"
+	wipeBlock_7: "26 ЧАСОВ",
+	rules_Text: `<div class="xbox_custom_rules"><ul><p class="MsoNormal"><span>Основная информация</span></p>\
+	<p><li>Незнание правил не освобождает Вас от ответственности.</li></p>\
+	<p><li>Зайдя на сервер Вы автоматически соглашаетесь со всеми нижеперечисленными пунктами правил.</li></p>\
+	<p><li>Вы несете ответственность за все свои аккаунты. Получив бан на одном - Вы получите его и на других. То же самое будет, если на одном из ваших аккаунтах имеется EAC блокировка.</li></p>\
+	<p><li>Если Вы уже были замечены с читами / макросами на другом проекте и на вас есть доказательства - мы имеем право забанить Вас без проверки.</li></p>\
+	<p><li>Администрация не компенсирует игровые ценности, утраченные по причине вашей ошибки, серверных лагов, багов игры или контактом с нарушителями.</li></p>\
+	<p><li>Запрещена продажа или реклама Читов/Макросов.</li></p>\
+	<p><li>Запрещено выдавать себя за Администратора, модератора или проверяющего.</li></p>\
+	<p><li>Наказание для игрока зависит от степени нарушения и обстоятельств. Нарушитель может получить предупреждение, временный либо перманентный бан.</li></p>\
+	<p><li>При серьезном нарушении правил, блокировка выдаётся на всех серверах проекта. За игру сверх разрешенного лимита блокировка выдается только на сервере, где было зафиксировано нарушение.</li></p><br>\
+	<p class="MsoNormal"><span>Геймплей</span></li></p>\
+	<p><li>Запрещено использовать/хранить/распространять Читы/Макросы или любое другое ПО, позволяющие получить преимущество над другими игроками. Наличие покупки или подписки приравнивается к хранению стороннего ПО.</li></p>\
+	<p><li>Запрещена игра с читерами.</li></p>\
+	<p><li>Запрещено использование багов с целью или без цели получения преимущества над другими игроками.</li></p>\
+	<p><li>Запрещено использование услуг читеров.</li></p><br>\
+	<p class="MsoNormal"><span>Нарушение лимита игроков в команде</span></li></p>\
+	<p><li>Запрещено жить больше положенного лимита в одном доме.</li></p>\
+	<p><li>Запрещено устраивать альянсы и перемирия с соседями, если в сумме Вас больше, указанного в названии сервера, максимума.</li></p>\
+	<p><li>Запрещено рейдить/антирейдить или убивать в 1+/2+/3+ и т.д., в зависимости от максимально разрешенного количества игроков в команде, а так-же нельзя в целом каким-либо образом кооперироваться с игроками, если Ваша команда полная.</li></p><br>\
+	<p><li>Чрезмерно частая смена тиммейтов будет считаться за нарушение.</li></p>\
+	<p class="MsoNormal"><span>Игровой Чат</span></li></p>\
+	<p><li>Запрещены ссылки в чате на сторонние сервисы и сайты, не относящиеся к проекту.</li></p>\
+	<p><li>Запрещен флуд (многократное повторение бессмысленных фраз, символов) или многократное отправление одинаковых фраз за короткий промежуток времени.</li></p>\
+	<p><li>Запрещено продавать или делать вид, что Вы продаёте Читы/Макросы.</li></p>\
+	<p><li>Запрещено продавать игровые ценности за реальную валюту (RMT).</li></p>\
+	<p><li>Модерация оставляет за собой право выдать мут игроку в чате, если тот нарушает правила чата.</li></p>\<br>\
+	<p class="MsoNormal"><span>Проверки</span></li></p>\
+	<p><li>Проверки проходят только через программу «Discord». Каждый игрок на нашем проекте, в обязательном порядке должен иметь эту программу на своём ПК.</li></p>\
+	<p><li>Вы имеете полное право отказаться проходить проверку, но в этом случае Вы будете заблокированы.</li></p>\
+	<p><li>Так же отказом от проверки будет считаться выход с сервера или предоставление некорректных контактных данных.</li></p>\
+	<p><li>Игнорирование вызова на проверку увенчается блокировкой.</li></p>\
+	<p><li>При согласии на проверку вы разрешаете устанавливать сторонние программы нужные администрации для проверки вашего ПК.</li></p>\
+	<p><li>Выход с сервера во время вызова на проверку закончится блокировкой.</li></p>\
+	<p><li>Запрещено чистить ПК перед проверкой.</li></p>\
+	<p><li>За отказ показывать нужную для проверки информацию или неадекватное поведение — Вы будете заблокированы.</li></p>\
+	<p><li>Если по итогам проверки игрок получает бан за читы — вся его команда блокируется вместе с ним.</li></p><br>\
+	<p class="MsoNormal"><span>Причины банов</span></li></p>\
+	<p><li>Использование читов - Бан навсегда, а также бан тиммейтов на 2 месяца.</li></p>\
+	<p><li>Использование услуг просвета - Бан навсегда.</li></p>\
+	<p><li>Отказ от проверки - Бан навсегда.</li></p>\
+	<p><li>Использование макросов - Бан на 1 год.</li></p>\
+	<p><li>Игра сверх разрешенного лимита - Бан на 1 месяц.</li></p><br>\
+	</ul><div class="unban" style="background: #333; border-radius: 10px; padding: 20px;"><p class="MsoNormal2" style="font-weight: bold; margin-bottom: 5px;">Возможность разблокировки</p><span>Не менее, чем через месяц после блокировки можно подать апелляцию, но только в том случае, если бан был получен не за читы или макросы. Писать апелляцию нужно в личные сообщения отдельной группы: <a href="https://vk.com/rusty_life_moder">vk.com/rusty_life_moder</a></span></div></div></div>`
 }
 const langEN = {
 	close: "Close",
@@ -95,7 +138,50 @@ const langEN = {
 	wipeBlock_4: "5 HOURS",
 	wipeBlock_5: "23 HOURS",
 	wipeBlock_6: "24 HOURS",
-	wipeBlock_7: "26 HOURS"
+	wipeBlock_7: "26 HOURS",
+	rules_Text: `<div class="xbox_custom_rules"><ul><p class="MsoNormal"><span>Main Information</span></p>\
+	<p><li>Ignorance of the rules does not absolve you from responsibility.</li></p>\
+	<p><li>By logging on to the server, you automatically agree to all of the following points of the rules.</li></p>\
+	<p><li>You are responsible for all your accounts. If you get banned on one, you will get it on the others. The same will happen if there is an EAC ban on one of your accounts.</li></p>\
+	<p><li>If you have already been noticed with cheats/macros on another project and there is evidence against you, we have the right to ban you without checking.</li></p>\
+	<p><li>The administration does not compensate for game values lost due to your error, server lags, game bugs or contact with violators.</li></p>\
+	<p><li>The sale or advertising of Cheats and Macro is prohibited.</li></p>\
+	<p><li>It is forbidden to impersonate an Administrator, Moderator.</li></p>\
+	<p><li>The punishment for the player depends on the degree of violation and the circumstances. The violator may receive a warning, temporary or permanent ban.</li></p>\
+	<p><li>In case of serious violation of the rules, the lock is issued on all servers of the project. For a game over the allowed limit, the lock is issued only on the server where the violation was recorded.</li></p><br>\
+	<p class="MsoNormal"><span>Gameplay</span></li></p>\
+	<p><li>It is forbidden to use/store/distribute Cheats/Macros or any other software that allows you to gain an advantage over other players. Having a purchase or subscription is equivalent to storing third-party software.</li></p>\
+	<p><li>Playing with cheaters is prohibited.</li></p>\
+	<p><li>It is forbidden to use bugs with or without the purpose of gaining an advantage over other players.</li></p>\
+	<p><li>It is forbidden to use the services of cheaters.</li></p><br>\
+	<p class="MsoNormal"><span>Alliances</span></li></p>\
+	<p><li>It is forbidden to live more than the prescribed limit in one house.</li></p>\
+	<p><li>It is forbidden to arrange alliances and truces with neighbors, if in total you are more than the maximum specified in the name of the server.</li></p>\
+	<p><li>It is forbidden to raid/anti-raid or kill in 1+/2+/3+ etc., depending on the maximum allowed number of players in the team, as well as it is generally impossible to cooperate in any way with the players if your team is complete.</li></p><br>\
+	<p><li>An excessively frequent change of teammates will be considered a violation.</li></p>\
+	<p class="MsoNormal"><span>In-Game Chat</span></li></p>\
+	<p><li>Chat links to third-party services and sites that are not related to the project are prohibited.</li></p>\
+	<p><li>Flood (repeated repetition of meaningless phrases, symbols) or multiple sending of identical phrases in a short period of time is prohibited.</li></p>\
+	<p><li>It is forbidden to sell or pretend that you are selling Cheats/Macros.</li></p>\
+	<p><li>It is forbidden to sell game values for real currency (RMT).</li></p>\
+	<p><li>Moderation reserves the right to issue a mutation to a player in the chat if he violates the chat rules.</li></p>\<br>\
+	<p class="MsoNormal"><span>Verefications</span></li></p>\
+	<p><li>Checks are carried out only through the program "Discord". Every player on our project must necessarily have this program on his PC.</li></p>\
+	<p><li>You have every right to refuse to undergo verification, but in this case you will be blocked.</li></p>\
+	<p><li>Also, the refusal of verification will be considered to be logging out of the server or providing incorrect contact data.</li></p>\
+	<p><li>Ignoring the call for verification will result in blocking.</li></p>\
+	<p><li>If you agree to the verification, you allow the installation of third-party programs necessary for the administration to check your PC.</li></p>\
+	<p><li>Logging out of the server during a call for verification will end in blocking.</li></p>\
+	<p><li>It is forbidden to clean the PC before checking.</li></p>\
+	<p><li>If you refuse to show the necessary information for verification or inappropriate behavior, you will be blocked.</li></p>\
+	<p><li>If, according to the results of the check, the player gets banned for cheats, his entire team is blocked along with him.</li></p><br>\
+	<p class="MsoNormal"><span>Reasons For The Ban</span></li></p>\
+	<p><li>Using cheats - Ban forever, as well as ban teammates for 2 months.</li></p>\
+	<p><li>The use of x-ray services is banned forever.</li></p>\
+	<p><li>Refusal to check - Ban forever.</li></p>\
+	<p><li>Using macros is banned for 1 year.</li></p>\
+	<p><li>The game over the allowed limit is banned for 1 month.</li></p><br>\
+	</ul><div class="unban" style="background: #333; border-radius: 10px; padding: 20px;"><p class="MsoNormal2" style="font-weight: bold; margin-bottom: 5px;">The Ability To Unlock</p><span>At least a month after the blocking, you can appeal, but only if the ban was not received for cheats or macros. You need to write an appeal in private messages of a separate group: <a href="https://discord.gg/rusty-life-286929290132586497">Discord</a></span></div></div></div>`
 }
 let langWipe = ["1 ЧАС","2 ЧАСА","3 ЧАСА","5 ЧАСОВ","23 ЧАСА","24 ЧАСА","26 ЧАСОВ"];
 const langWipeEN = ["1 HOUR","2 HOURS","3 HOURS","5 HOURS","23 HOURS","24 HOURS","26 HOURS"];
@@ -176,49 +262,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 	curcontent["rules"] = {
 		xhead: lang.rules,
-		xcon: '<div class="xbox_custom_rules"><ul><p class="MsoNormal"><span>Основная информация</span></p>\
-	<p><li>Не знание правил не освобождает Вас от ответственности.</li></p>\
-	<p><li>Зайдя на сервер Вы автоматически соглашаетесь со всеми нижеперечисленными пунктами правил.</li></p>\
-	<p><li>Вы несете ответственность за все свои аккаунты. Получив бан на одном - Вы получите его и на других. То же самое будет, если на одном из ваших аккаунтах имеется EAC блокировка.</li></p>\
-	<p><li>Если Вы уже были замечены с читами / макросами на другом проекте и на вас есть доказательства - мы имеем право забанить Вас без проверки.</li></p>\
-	<p><li>Администрация не компенсирует игровые ценности, утраченные по причине вашей ошибки, серверных лагов, багов игры или контактом с нарушителями.</li></p>\
-	<p><li>Запрещена продажа или реклама Читов/Макросов.</li></p>\
-	<p><li>Запрещено выдавать себя за Администратора, модератора или проверяющего.</li></p>\
-	<p><li>Наказание для игрока зависит от степени нарушения и обстоятельств. Нарушитель может получить предупреждение, временный либо перманентный бан.</li></p>\
-	<p><li>При серьезном нарушении правил, блокировка выдаётся на всех серверах проекта. За игру сверх разрешенного лимита блокировка выдается только на сервере, где было зафиксировано нарушение.</li></p><br>\
-	<p class="MsoNormal"><span>Геймплей</span></li></p>\
-	<p><li>Запрещено использовать/хранить/распространять Читы/Макросы или любое другое ПО, позволяющие получить преимущество над другими игроками. Наличие покупки или подписки приравнивается к хранению стороннего ПО.</li></p>\
-	<p><li>Запрещена игра с читерами.</li></p>\
-	<p><li>Запрещено использование багов с целью или без цели получения преимущества над другими игроками.</li></p>\
-	<p><li>Запрещено использование услуг читеров.</li></p><br>\
-	<p class="MsoNormal"><span>Нарушение лимита игроков в команде</span></li></p>\
-	<p><li>Запрещено жить больше положенного лимита в одном доме.</li></p>\
-	<p><li>Запрещено устраивать альянсы и перемирия с соседями, если в сумме Вас больше, указанного в названии сервера, максимума.</li></p>\
-	<p><li>Чрезмерно частая смена тиммейтов будет считаться за нарушение.</li></p>\
-	<p><li>Запрещено рейдить/антирейдить или убивать в 1+/2+/3+ и т.д., в зависимости от максимально разрешенного количества игроков в команде, а так-же нельзя в целом каким-либо образом кооперироваться с игроками, если Ваша команда полная.</li></p><br>\
-	<p class="MsoNormal"><span>Игровой Чат</span></li></p>\
-	<p><li>Запрещены ссылки в чате на сторонние сервисы и сайты.</li></p>\
-	<p><li>Запрещен флуд (многократное повторение бессмысленных фраз, символов) или многократное отправление одинаковых фраз за короткий промежуток времени.</li></p>\
-	<p><li>Запрещено продавать или делать вид, что Вы продаёте Читы/Макросы.</li></p>\
-	<p><li>Запрещено продавать игровые ценности за реальную валюту (RMT).</li></p>\
-	<p><li>Модерация оставляет за собой право выдать мут игроку в чате, если тот нарушает правила чата.</li></p>\<br>\
-	<p class="MsoNormal"><span>Проверки</span></li></p>\
-	<p><li>Проверки проходят только через программу «Discord». Каждый игрок на нашем проекте, в обязательном порядке должен иметь эту программу на своём ПК.</li></p>\
-	<p><li>Вы имеете полное право отказаться проходить проверку, но в этом случае Вы будете заблокированы.</li></p>\
-	<p><li>Так же отказом от проверки будет считаться выход с сервера или предоставление некорректных контактных данных.</li></p>\
-	<p><li>Игнорирование вызова на проверку увенчается блокировкой.</li></p>\
-	<p><li>При согласии на проверку вы разрешаете устанавливать сторонние программы нужные администрации для проверки вашего ПК.</li></p>\
-	<p><li>Выход с сервера во время вызова на проверку закончится блокировкой.</li></p>\
-	<p><li>Запрещено чистить ПК перед проверкой.</li></p>\
-	<p><li>За отказ показывать нужную для проверки информацию или неадекватное поведение — Вы будете заблокированы.</li></p>\
-	<p><li>Если по итогам проверки игрок получает бан за читы — вся его команда блокируется вместе с ним.</li></p><br>\
-	<p class="MsoNormal"><span>Причины банов</span></li></p>\
-	<p><li>Использование читов - Бан навсегда, а также бан тиммейтов на 2 месяца.</li></p>\
-	<p><li>Использование услуг просвета - Бан навсегда.</li></p>\
-	<p><li>Отказ от проверки - Бан навсегда.</li></p>\
-	<p><li>Использование макросов - Бан на 1 год.</li></p>\
-	<p><li>Игра сверх разрешенного лимита - Бан на 1 месяц.</li></p><br>\
-	</ul><div class="unban" style="background: #333; border-radius: 10px; padding: 20px;"><p class="MsoNormal2" style="font-weight: bold; margin-bottom: 5px;">Возможность разблокировки</p><span>Не менее, чем через месяц после блокировки можно подать апелляцию, но только в том случае, если бан был получен не за читы или макросы. Писать апелляцию нужно в личные сообщения отдельной группы: <a href="https://vk.com/rusty_life_moder">vk.com/rusty_life_moder</a></span></div></div></div>'
+		xcon: lang.rules_Text
 	};
 	curcontent["kit-prem"] = {
 		xhead: lang.kitsDonate_Title,
