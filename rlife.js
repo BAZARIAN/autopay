@@ -1426,8 +1426,8 @@ function generateUrlQiwi(){
  */
 function generateUrlEnot(){
 	var inputval = document.getElementById('refill-window__amount-input').value;
-	var MERCHANT_ID   = 45517,             // ID магазина
-	SECRET_WORD   = 'cbd73e7ff2909127ab9621e30ebf73bea02aca51',   // Секретный ключ
+	var MERCHANT_ID   = 74472,             // ID магазина
+	SECRET_WORD   = '8419f65f994c075ad49e5a4396ab45992dc1cbf8',   // Секретный ключ
 	ORDER_AMOUNT  = parseFloat(inputval),               // Сумма заказа
 	PAYMENT_ID    = new Date().getTime(),        // ID заказа (мы используем time(), чтобы был
 	SLUG = MD5(MERCHANT_ID+':'+ORDER_AMOUNT+':'+SECRET_WORD+':'+PAYMENT_ID)
