@@ -1,4 +1,5 @@
 let tebexURL = "https://rusty-life.tebex.io/checkout/packages/add/5060061/single";
+let ovhBGURL = "https://pic.moscow.ovh/images/2023/11/22/18c77bbc761dfc824135c5eaeef0a3d7.png";
 let telegramURL = "https://t.me/rusty_life";
 let langSwitch = "ru";
 var curcontent = new Array();
@@ -1820,7 +1821,7 @@ var DOMReady = function (a, b, c) { b = document, c = 'addEventListener'; b[c] ?
 
 window.addEventListener("load", function () {
 	if (langSwitch == "en") {
-		document.querySelector('.header__image').setAttribute('src', 'https://pic.moscow.ovh/images/2023/09/27/ccd8396a1c833d402b978b4cc9e9d268.png');
+		document.querySelector('.header__image').setAttribute('src', ovhBGURL);
 		if (document.getElementById('xbox_rules') != null &&
 			document.getElementById('xbox_kits') != null &&
 			document.getElementById('xbox_wipeblock') != null)
