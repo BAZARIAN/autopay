@@ -1436,7 +1436,7 @@ function generateUrlEnot(){
 }
 var colorgrayhover = "#272730";
 function OnClickElement1(event) { /*QIWI*/
-	ResetBtns();
+	/*ResetBtns();
 
 	let element = document.getElementById('element1');
 	element.style.backgroundColor = colorgrayhover;
@@ -1445,7 +1445,7 @@ function OnClickElement1(event) { /*QIWI*/
 	document.getElementById('bonus-text').innerText = "";
 	document.getElementById('buybtn').removeAttribute("href");
 	document.getElementById("amount-wrapper").style.display = "block";
-	document.getElementById('buybtn').innerText = lang.refilButton;
+	document.getElementById('buybtn').innerText = lang.refilButton;*/
 }
 
 function OnClickElement2(event) { /*CENT.APP*/
@@ -1475,7 +1475,7 @@ function OnClickElement3(event) { /*ENOT.IO*/
 }
 
 function OnClickElement4(event) { /*MOSCOW.OVH x TOME*/
-	ResetBtns();
+	/*ResetBtns();
 	
 	let element = document.getElementById('element4');
 	element.style.backgroundColor = colorgrayhover;
@@ -1483,7 +1483,7 @@ function OnClickElement4(event) { /*MOSCOW.OVH x TOME*/
 	UnLockBuyBtn();
 	document.getElementById('bonus-text').innerText = "";
 	document.getElementById("amount-wrapper").style.display = "block";
-	document.getElementById('buybtn').innerText = lang.refilButton;
+	document.getElementById('buybtn').innerText = lang.refilButton;*/
 }
 
 function OnClickElement5(event) { /*tebex*/ 
@@ -1500,7 +1500,7 @@ function OnClickElement5(event) { /*tebex*/
 }
 
 function OnClickElement6(event) { /*QIWI*/
-	ResetBtns();
+	/*ResetBtns();
 	
 	let element = document.getElementById('element6');
 	element.style.backgroundColor = colorgrayhover;
@@ -1509,7 +1509,7 @@ function OnClickElement6(event) { /*QIWI*/
 	document.getElementById('bonus-text').innerText = "";
 	document.getElementById('buybtn').removeAttribute("href");
 	document.getElementById("amount-wrapper").style.display = "block";
-	document.getElementById('buybtn').innerText = lang.refilButton;
+	document.getElementById('buybtn').innerText = lang.refilButton;*/
 }
 
 function OnClickElement7(event) { /*ENOT.IO*/ 
