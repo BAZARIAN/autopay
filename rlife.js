@@ -1448,7 +1448,7 @@ function OnClickElement1(event) { /*QIWI*/
 	document.getElementById('buybtn').innerText = lang.refilButton;*/
 }
 
-function OnClickElement2(event) { /*CENT.APP*/
+function OnClickElement3(event) { /*CENT.APP*/
 	ResetBtns();
 	
 	let element = document.getElementById('element3');
@@ -1461,7 +1461,7 @@ function OnClickElement2(event) { /*CENT.APP*/
 	document.getElementById('buybtn').innerText = lang.refilButton;
 }
 
-function OnClickElement3(event) { /*ENOT.IO*/
+function OnClickElement2(event) { /*ENOT.IO*/
 	ResetBtns();
 	
 	let element = document.getElementById('element2');
