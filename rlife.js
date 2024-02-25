@@ -1312,10 +1312,10 @@ function OnClickBuyBtn(event)
 		   window.open(generateUrlQiwi());
 	   }
 	}
-	if (btn_unlocked == 2) {
+	if (btn_unlocked == 3) {
 		appcentHandler();
 	}
-	if (btn_unlocked == 3) {
+	if (btn_unlocked == 2) {
 	   var inputval = document.getElementById('refill-window__amount-input').value;
 	   var inputfloat = parseFloat(inputval);
 	   if (inputfloat < 50 || isNaN(inputfloat)) {
