@@ -1318,8 +1318,8 @@ function OnClickBuyBtn(event)
 	if (btn_unlocked == 2) {
 	   var inputval = document.getElementById('refill-window__amount-input').value;
 	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 50 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = `${lang.refilMin} - 50 RUB.`;
+	   if (inputfloat < 30 || isNaN(inputfloat)) {
+		   document.getElementById('bonus-text').innerText = `${lang.refilMin} - 30 RUB.`;
 		   return false;
 	   } 
 	   else {
