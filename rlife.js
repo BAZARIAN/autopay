@@ -1451,7 +1451,7 @@ function OnClickElement1(event) { /*QIWI*/
 function OnClickElement2(event) { /*CENT.APP*/
 	ResetBtns();
 	
-	let element = document.getElementById('element3');
+	let element = document.getElementById('element2');
 	element.style.backgroundColor = colorgrayhover;
 	btn_unlocked = 2;
 	UnLockBuyBtn();
@@ -1464,7 +1464,7 @@ function OnClickElement2(event) { /*CENT.APP*/
 function OnClickElement3(event) { /*ENOT.IO*/
 	ResetBtns();
 	
-	let element = document.getElementById('element2');
+	let element = document.getElementById('element3');
 	element.style.backgroundColor = colorgrayhover;
 	btn_unlocked = 3;
 	UnLockBuyBtn();
