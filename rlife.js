@@ -1734,8 +1734,8 @@ function appcentHandler() {
 	var inputval = document.getElementById('refill-window__amount-input').value;
 	var inputfloat = parseFloat(inputval);
 
-	if (inputfloat < 30 || isNaN(inputfloat)) {
-		document.getElementById('bonus-text').innerText = "Минимальная сумма - 30 RUB.";
+	if (inputfloat < 100 || isNaN(inputfloat)) {
+		document.getElementById('bonus-text').innerText = "Минимальная сумма - 100 RUB.";
 		return false;
 	} else {
 		document.getElementById('bonus-text').innerText = "";
