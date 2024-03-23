@@ -1303,8 +1303,8 @@ function OnClickBuyBtn(event)
 	if (btn_unlocked == 1) {
 	   var inputval = document.getElementById('refill-window__amount-input').value;
 	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 30 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = `${lang.refilMin} - 30 RUB.`;
+	   if (inputfloat < 100 || isNaN(inputfloat)) {
+		   document.getElementById('bonus-text').innerText = `${lang.refilMin} - 100 RUB.`;
 		   return false;
 	   } 
 	   else {
@@ -1346,8 +1346,8 @@ function OnClickBuyBtn(event)
 	if (btn_unlocked == 6) {
 	   var inputval = document.getElementById('refill-window__amount-input').value;
 	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 30 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = `${lang.refilMin} - 30 RUB.`;
+	   if (inputfloat < 100 || isNaN(inputfloat)) {
+		   document.getElementById('bonus-text').innerText = `${lang.refilMin} - 100 RUB.`;
 		   return false;
 	   } 
 	   else {
