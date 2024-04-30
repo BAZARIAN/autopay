@@ -1796,7 +1796,7 @@ window.onload = function () {
 	curcontent["block"].xcon += '</div>\<br></i></div>';
 }
 
-// var CustomerSteamId = "0"; // Стандартно 0, для теста указан id
+var CustomerSteamId = "0"; // Стандартно 0, для теста указан id
 var OvhPayUrl = "";
 
 function OvhUrlOverrite() {
