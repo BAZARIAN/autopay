@@ -1,5 +1,5 @@
 const tebexURL = "https://rusty-life.tebex.io/checkout/packages/add/5060061/single";
-const tomeUrl = 'https://46.174.52.180:5007/api/pay';
+const tomeUrl = 'https://monitoring.rustylifes.com:5007/api/pay';
 const ovhBGURL = "https://pic.moscow.ovh/images/2023/11/22/18c77bbc761dfc824135c5eaeef0a3d7.png";
 const telegramURL = "https://t.me/rusty_life";
 let langSwitch = "ru";
