@@ -1,4 +1,5 @@
 const tebexURL = "https://rusty-life.tebex.io/checkout/packages/add/5060061/single";
+const tomeUrl = 'https://46.174.52.180:5007/api/pay';
 const ovhBGURL = "https://pic.moscow.ovh/images/2023/11/22/18c77bbc761dfc824135c5eaeef0a3d7.png";
 const telegramURL = "https://t.me/rusty_life";
 let langSwitch = "ru";
@@ -1461,7 +1462,7 @@ async function generateUrlTome(){
 	const inputval = document.getElementById('refill-window__amount-input').value;
     const steamID64 = CustomerSteamId;
     const inputValue = inputval;
-    const res = await fetch('http://46.174.52.180:5007/api/pay', {
+    const res = await fetch(tomeUrl, {
 	    method: 'POST',
 	    headers: {
             'Content-Type': 'application/json'
