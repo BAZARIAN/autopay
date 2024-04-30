@@ -1462,12 +1462,11 @@ function generateUrlTome(){
 	    method: 'POST',
 	    headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Basic MDAxNjI5OmZTMjNNNjk2YVZhY2QxYlAxZGE5NkVPMjc0OE42NEhDZDhlOQ==',
-            'Access-Control-Allow-Origin': '*'
+            'Authorization': 'Basic MDAxNjI5OmZTMjNNNjk2YVZhY2QxYlAxZGE5NkVPMjc0OE42NEhDZDhlOQ=='
         },
 	    body: JSON.stringify({
             amount: {
-                value: inputval,
+                value: parseFloat(inputval),
                 currency: "RUB"
             },
             confirmation: {
@@ -1484,7 +1483,7 @@ function generateUrlTome(){
         if (res.ok) {
             return res.json();
         } else {
-            console.log(res.status)
+            console.log('Tome Res:', res.status)
             return Promise.reject(`Ошибка: ${res.status}`);
         };
     })
