@@ -1462,7 +1462,8 @@ function generateUrlTome(){
 	    method: 'POST',
 	    headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Basic MDAxNjI5OmZTMjNNNjk2YVZhY2QxYlAxZGE5NkVPMjc0OE42NEhDZDhlOQ=='
+            'Authorization': 'Basic MDAxNjI5OmZTMjNNNjk2YVZhY2QxYlAxZGE5NkVPMjc0OE42NEhDZDhlOQ==',
+            'Access-Control-Allow-Origin': '*'
         },
 	    body: JSON.stringify({
             amount: {
