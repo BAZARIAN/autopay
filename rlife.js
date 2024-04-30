@@ -1393,7 +1393,7 @@ var skinbackProxyAddress = "https://monitoring.rustylifes.com:8085";
  * @returns {string}
  */
 
-async function generateUrlSkinback() {
+function generateUrlSkinback() {
 	var orderId = MD5(new Date() + CustomerSteamId);
 	fetch(skinbackProxyAddress + '?order_id=' + orderId + '&steam_id=' + CustomerSteamId).then((res) => {
         return res.json();
@@ -1408,39 +1408,88 @@ async function generateUrlSkinback() {
     });
 }
 
+function appcentHandler() {
+	var inputval = document.getElementById('refill-window__amount-input').value;
+	var inputfloat = parseFloat(inputval);
+
+	if (inputfloat < 100 || isNaN(inputfloat)) {
+		document.getElementById('bonus-text').innerText = "Минимальная сумма - 100 RUB.";
+		return false;
+	} else {
+		document.getElementById('bonus-text').innerText = "";
+	}
+
+	if (CustomerSteamId == "0" || CustomerSteamId == "") {
+		//document.getElementById('appcent-error-box').innerText = "Пожалуйста авторизуйтесь в магазине!";
+
+		//return false;
+	}
+
+	fetch('https://cent.app/api/v1/bill/create', {
+		method: 'POST',
+		headers: {
+			'Authorization': 'Bearer 13201|BLDmFNXQQOKY9lmyKY96bKZI8jLiv9kXrui6qLmX',
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify({
+			amount: inputfloat,
+			shop_id: 'dk7EgAQmKW',
+			order_id: `${CustomerSteamId}`,
+			payer_pays_commission: '1',
+			name: `Пополнение для ${CustomerSteamId}`,
+		})
+	})
+		.then((res) => {
+			if (res.ok) {
+				return res.json();
+			} else {
+				console.log(res.status)
+				return Promise.reject(`Ошибка: ${res.status}`);
+			};
+		})
+		.then((res) => {
+			window.open(res.link_page_url);
+		})
+}
+
 /**
  * Генерация ссылки для киви
  * @returns {string}
  */
-async function generateUrlTome(){
-	const inputval = document.getElementById('refill-window__amount-input').value;
-	try {
-        const res = await fetch('https://tome.ge/api/v1/payments', {
-		    method: 'POST',
-		    headers: {
-                'Content-Type': 'application/json',
-                'Authorization': 'Basic MDAxNjI5OmZTMjNNNjk2YVZhY2QxYlAxZGE5NkVPMjc0OE42NEhDZDhlOQ=='
+function generateUrlTome(){
+	var inputval = document.getElementById('refill-window__amount-input').value;
+    fetch('https://tome.ge/api/v1/payments', {
+	    method: 'POST',
+	    headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Basic MDAxNjI5OmZTMjNNNjk2YVZhY2QxYlAxZGE5NkVPMjc0OE42NEhDZDhlOQ=='
+        },
+	    body: JSON.stringify({
+            amount: {
+                value: inputval,
+                currency: "RUB"
             },
-		    body: JSON.stringify({
-                amount: {
-                    value: inputval,
-                    currency: "RUB"
-                },
-                confirmation: {
-                    type: "redirect",
-                    return_url: "https://rustylifes.com/"
-                },
-                description: `Deposit for ${CustomerSteamId}`,
-                metadata: {
-                    steamid: CustomerSteamId
-                }
-		    })
-	    });
-        const result = await res.json();
-        return result.confirmation.confirmation_url;
-    } catch (e) {
-        console.log(e)
-    }
+            confirmation: {
+                type: "redirect",
+                return_url: "https://rustylifes.com/"
+            },
+            description: `Deposit for ${CustomerSteamId}`,
+            metadata: {
+                steamid: CustomerSteamId
+            }
+	    })
+	})
+    .then((res) => {
+        if (res.ok) {
+            return res.json();
+        } else {
+            console.log(res.status)
+            return Promise.reject(`Ошибка: ${res.status}`);
+        };
+    })
+    .then((res) => {
+        window.open(res.confirmation.confirmation_url);
+    })
 }
 
 /**
@@ -1747,55 +1796,8 @@ window.onload = function () {
 	curcontent["block"].xcon += '</div>\<br></i></div>';
 }
 
-var CustomerSteamId = "0"; // Стандартно 0, для теста указан id
+// var CustomerSteamId = "0"; // Стандартно 0, для теста указан id
 var OvhPayUrl = "";
-
-const appCentForm = document.getElementById('appcent-inp-form');
-
-function appcentHandler() {
-	var inputval = document.getElementById('refill-window__amount-input').value;
-	var inputfloat = parseFloat(inputval);
-
-	if (inputfloat < 100 || isNaN(inputfloat)) {
-		document.getElementById('bonus-text').innerText = "Минимальная сумма - 100 RUB.";
-		return false;
-	} else {
-		document.getElementById('bonus-text').innerText = "";
-	}
-
-	if (CustomerSteamId == "0" || CustomerSteamId == "") {
-		//document.getElementById('appcent-error-box').innerText = "Пожалуйста авторизуйтесь в магазине!";
-
-		//return false;
-	}
-
-	fetch('https://cent.app/api/v1/bill/create', {
-		method: 'POST',
-		headers: {
-			'Authorization': 'Bearer 13201|BLDmFNXQQOKY9lmyKY96bKZI8jLiv9kXrui6qLmX',
-			'Content-Type': 'application/json'
-		},
-		body: JSON.stringify({
-			amount: inputfloat,
-			shop_id: 'dk7EgAQmKW',
-			order_id: `${CustomerSteamId}`,
-			payer_pays_commission: '1',
-			name: `Пополнение для ${CustomerSteamId}`,
-		})
-	})
-		.then((res) => {
-			if (res.ok) {
-				return res.json();
-			} else {
-				console.log(res.status)
-				return Promise.reject(`Ошибка: ${res.status}`);
-			};
-		})
-		.then((res) => {
-			window.open(res.link_page_url);
-		})
-}
-
 
 function OvhUrlOverrite() {
 	var slides = document.getElementsByClassName("nav-link");
