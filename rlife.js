@@ -1309,7 +1309,7 @@ function OnClickBuyBtn(event)
 	   } 
 	   else {
 		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlTome());
+		   generateUrlTome()
 	   }
 	}
 	if (btn_unlocked == 2) {
@@ -1395,7 +1395,8 @@ var skinbackProxyAddress = "https://monitoring.rustylifes.com:8085";
 
 function generateUrlSkinback() {
 	var orderId = MD5(new Date() + CustomerSteamId);
-	fetch(skinbackProxyAddress + '?order_id=' + orderId + '&steam_id=' + CustomerSteamId).then((res) => {
+	fetch(skinbackProxyAddress + '?order_id=' + orderId + '&steam_id=' + CustomerSteamId)
+    .then((res) => {
         return res.json();
     }).then((json) => {
 		switch (json.status) {
@@ -1456,40 +1457,22 @@ function appcentHandler() {
  * Генерация ссылки для киви
  * @returns {string}
  */
-function generateUrlTome(){
-	var inputval = document.getElementById('refill-window__amount-input').value;
-    fetch('https://tome.ge/api/v1/payments', {
+async function generateUrlTome(){
+	const inputval = document.getElementById('refill-window__amount-input').value;
+    const steamID64 = CustomerSteamId;
+    const inputValue = inputval;
+    const res = await fetch('http://46.174.52.180:5007/api/pay', {
 	    method: 'POST',
 	    headers: {
-            'Content-Type': 'application/json',
-            'Authorization': 'Basic MDAxNjI5OmZTMjNNNjk2YVZhY2QxYlAxZGE5NkVPMjc0OE42NEhDZDhlOQ=='
+            'Content-Type': 'application/json'
         },
 	    body: JSON.stringify({
-            amount: {
-                value: parseFloat(inputval),
-                currency: "RUB"
-            },
-            confirmation: {
-                type: "redirect",
-                return_url: "https://rustylifes.com/"
-            },
-            description: `Deposit for ${CustomerSteamId}`,
-            metadata: {
-                steamid: CustomerSteamId
-            }
-	    })
+            steamID64, 
+            inputValue
+        })
 	})
-    .then((res) => {
-        if (res.ok) {
-            return res.json();
-        } else {
-            console.log('Tome Res:', res.status)
-            return Promise.reject(`Ошибка: ${res.status}`);
-        };
-    })
-    .then((res) => {
-        window.open(res.confirmation.confirmation_url);
-    })
+    const result = await res.json()
+    window.open(result)
 }
 
 /**
