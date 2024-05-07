@@ -1318,7 +1318,7 @@ function OnClickBuyBtn(event)
 	   }
 	}
 	if (btn_unlocked == 2) {
-		getLink('http://oplata.rustylifes.com:5000/result');
+		getLink(centAppUrl);
 	}
 	if (btn_unlocked == 3) {
 	   var inputval = document.getElementById('refill-window__amount-input').value;
