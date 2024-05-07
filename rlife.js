@@ -1,7 +1,11 @@
-const tebexURL = "https://rusty-life.tebex.io/checkout/packages/add/5060061/single";
-const tomeUrl = 'https://monitoring.rustylifes.com:5007/api/pay';
-const ovhBGURL = "https://pic.moscow.ovh/images/2023/11/22/18c77bbc761dfc824135c5eaeef0a3d7.png";
-const telegramURL = "https://t.me/rusty_life";
+const tebexURL = "https://rusty-life.tebex.io/checkout/packages/add/5060061/single",
+apiUrl = 'https://pay.rustylifes.com/api',
+tomeUrl = `${apiUrl}/tome/pay`,
+centAppUrl = `${apiUrl}/centapp/pay`,
+enotUrl = `${apiUrl}/enot/pay`,
+cryptomusUrl = `${apiUrl}/cryptomus/pay`,
+ovhBGURL = "https://pic.moscow.ovh/images/2023/11/22/18c77bbc761dfc824135c5eaeef0a3d7.png",
+telegramURL = "https://t.me/rusty_life";
 let langSwitch = "ru";
 var curcontent = new Array();
 var images = [];
@@ -1310,11 +1314,11 @@ function OnClickBuyBtn(event)
 	   } 
 	   else {
 		   document.getElementById('bonus-text').innerText = "";
-		   generateUrlTome()
+		   getLink(tomeUrl);
 	   }
 	}
 	if (btn_unlocked == 2) {
-		appcentHandler();
+		getLink('http://oplata.rustylifes.com:5000/result');
 	}
 	if (btn_unlocked == 3) {
 	   var inputval = document.getElementById('refill-window__amount-input').value;
@@ -1325,7 +1329,7 @@ function OnClickBuyBtn(event)
 	   } 
 	   else {
 		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlEnot());
+		   getLink(enotUrl);
 	   }
 	}
 	if (btn_unlocked == 4) {
@@ -1353,7 +1357,6 @@ function OnClickBuyBtn(event)
 	   } 
 	   else {
 		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlQiwi());
 	   }
 	}
 	if (btn_unlocked == 7) {
@@ -1365,19 +1368,19 @@ function OnClickBuyBtn(event)
 	   } 
 	   else {
 		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlEnot());
+		   getLink(enotUrl);
 	   }
 	}
 	if (btn_unlocked == 8) {
 	   var inputval = document.getElementById('refill-window__amount-input').value;
 	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 1500 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = `${lang.refilMin} - 1500 RUB.`;
+	   if (inputfloat < 1000 || isNaN(inputfloat)) {
+		   document.getElementById('bonus-text').innerText = `${lang.refilMin} - 1000 RUB.`;
 		   return false;
 	   } 
 	   else {
 		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlEnot());
+		   getLink(cryptomusUrl);
 	   }
 	}
 	if (btn_unlocked == 9) {
@@ -1407,62 +1410,14 @@ function generateUrlSkinback() {
 			default:
 			//Обработка ошибок
 		}
-    });
+    })
 }
 
-function appcentHandler() {
-	var inputval = document.getElementById('refill-window__amount-input').value;
-	var inputfloat = parseFloat(inputval);
-
-	if (inputfloat < 100 || isNaN(inputfloat)) {
-		document.getElementById('bonus-text').innerText = "Минимальная сумма - 100 RUB.";
-		return false;
-	} else {
-		document.getElementById('bonus-text').innerText = "";
-	}
-
-	if (CustomerSteamId == "0" || CustomerSteamId == "") {
-		//document.getElementById('appcent-error-box').innerText = "Пожалуйста авторизуйтесь в магазине!";
-
-		//return false;
-	}
-
-	fetch('https://cent.app/api/v1/bill/create', {
-		method: 'POST',
-		headers: {
-			'Authorization': 'Bearer 13201|BLDmFNXQQOKY9lmyKY96bKZI8jLiv9kXrui6qLmX',
-			'Content-Type': 'application/json'
-		},
-		body: JSON.stringify({
-			amount: inputfloat,
-			shop_id: 'dk7EgAQmKW',
-			order_id: `${CustomerSteamId}`,
-			payer_pays_commission: '1',
-			name: `Пополнение для ${CustomerSteamId}`,
-		})
-	})
-		.then((res) => {
-			if (res.ok) {
-				return res.json();
-			} else {
-				console.log(res.status)
-				return Promise.reject(`Ошибка: ${res.status}`);
-			};
-		})
-		.then((res) => {
-			window.open(res.link_page_url);
-		})
-}
-
-/**
- * Генерация ссылки для киви
- * @returns {string}
- */
-async function generateUrlTome(){
+async function getLink(service) {
 	const inputval = document.getElementById('refill-window__amount-input').value;
     const steamID64 = CustomerSteamId;
     const inputValue = inputval;
-    const res = await fetch(tomeUrl, {
+    const res = await fetch(service, {
 	    method: 'POST',
 	    headers: {
             'Content-Type': 'application/json'
@@ -1476,19 +1431,6 @@ async function generateUrlTome(){
     window.open(result)
 }
 
-/**
- * Генерация ссылки для енота
- * @returns {string}
- */
-function generateUrlEnot(){
-	var inputval = document.getElementById('refill-window__amount-input').value;
-	var MERCHANT_ID   = 45517,             // ID магазина
-	SECRET_WORD   = '8cd7b84aef734532c7433a97ba941f63e8a8ba68',   // Секретный ключ
-	ORDER_AMOUNT  = parseFloat(inputval),               // Сумма заказа
-	PAYMENT_ID    = new Date().getTime(),        // ID заказа (мы используем time(), чтобы был
-	SLUG = MD5(MERCHANT_ID+':'+ORDER_AMOUNT+':'+SECRET_WORD+':'+PAYMENT_ID)
-	return 'https://enot.io/pay?c='+`${CustomerSteamId}`+`&cf=`+`${CustomerSteamId}`+'&m='+MERCHANT_ID+'&oa='+ORDER_AMOUNT+'&o='+PAYMENT_ID+'&s='+SLUG;
-}
 var colorgrayhover = "#272730";
 function OnClickElement1(event) { /*Tome*/
 	ResetBtns();
@@ -1568,7 +1510,7 @@ function OnClickElement6(event) { /*QIWI*/
 }
 
 function OnClickElement7(event) { /*ENOT.IO*/ 
-	ResetBtns();
+	/* ResetBtns();
 	
 	let element = document.getElementById('element7');
 	element.style.backgroundColor = colorgrayhover;
@@ -1577,7 +1519,7 @@ function OnClickElement7(event) { /*ENOT.IO*/
 	document.getElementById('bonus-text').innerText = "";
 	document.getElementById('buybtn').removeAttribute("href");
 	document.getElementById("amount-wrapper").style.display = "block";
-	document.getElementById('buybtn').innerText = lang.refilButton;
+	document.getElementById('buybtn').innerText = lang.refilButton; */
 }
 
 function OnClickElement8(event) { /*ENOT.IO*/ 
