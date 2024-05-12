@@ -1,5 +1,3 @@
-"use strict";
-
 const getServersData = async () => {
   try {
     const request = await fetch("https://monitoring.rustylifes.com/servers");
@@ -30,10 +28,11 @@ const updateProgress = async () => {
       var serverIP = serversData[i].ip;
       var serverPort = Number(serversData[i].port);
       var shopID = Number(serversData[i].shopID);
-      var players_now = Number(serversData[i].players);
-      var players_max = Number(serversData[i].maxPlayers);
-      var players_joining = Number(serversData[i].joiningPlayers);
-      var players_queued = Number(serversData[i].queuedPlayers);
+      const players = serversData[i].players;
+      var players_now = Number(players.now);
+      var players_max = Number(players.max);
+      var players_joining = Number(players.connecting);
+      var players_queued = Number(players.queue);
       if ((document.querySelectorAll(`.xserver__links`)[i] !== null) && (document.querySelectorAll(`.xserver__links`)[i] !== undefined)) {
         if (document.querySelectorAll(`.xserver__links`)[i].innerHTML.includes(`steam://connect/`)) {
           console.log(document.querySelectorAll(`.xserver__links`)[i].innerHTML.includes(`steam://connect/`));
@@ -68,9 +67,6 @@ const updateProgress = async () => {
       
       const moreInfoArray = [];
       const elementsArray = [];
-      // serversData[0].joiningPlayers+=0;
-      // serversData[0].queuedPlayers+=0;
-      
 
       progressElement.innerHTML = `<div class="progress-bar progress-bar-animated progress-bar-striped allPlayers" id="players_now_${players_now}" style="width: ${
         (players_now * 100) / players_max
@@ -86,7 +82,6 @@ const updateProgress = async () => {
           `${players_joining} ${declOfNum(
             players_joining,
             ["подключается", "подключаются", "подключаются"]
-            // ["", "", ""]
           )}`
         );
       }
@@ -138,6 +133,5 @@ const updateProgress = async () => {
 };
 setTimeout(() => {
   updateProgress();
-  // dropdownInject();
 }, 750);
 setInterval(() => updateProgress(), 5 * 1000);
