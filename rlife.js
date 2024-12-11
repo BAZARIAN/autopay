@@ -1162,45 +1162,45 @@ document.addEventListener("DOMContentLoaded", function() {
 			<div class="refill-window__footer"><div class="refill-window__content">\
 				<div class="refill-window__payments">\
 					<ul class="refill-window__payments-list">\
-						<li class="refill-window__payment" onclick="OnClickElement1(this)">\
+						<li class="refill-window__payment" onclick="OnClickElement(1)">\
 							<button class="refill-window__payment-btn" id="element1">\
 								<svg class="refill-window__payment-icon" viewBox="0 0 140 80" fill="none" version="1.1" id="svg25" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><defs id="defs25"><clipPath id="clip0_8_3245-6"><path fill="#fff" id="rect13-4" d="M0 0h70v17.539H0z"/></clipPath><clipPath id="clip1"><path fill="#fff" transform="translate(41 4)" d="M0 0h49v14H0z" id="path7-0"/></clipPath><clipPath id="clip0-4"><path fill="#fff" d="M0 0h35v22H0z" id="path8"/></clipPath><clipPath id="clip1-2"><path fill="#fff" transform="translate(41 4)" d="M0 0h49v14H0z" id="path9"/></clipPath><clipPath id="clip0"><path fill="#fff" d="M0 0h35v22H0z" id="path6-1"/></clipPath><clipPath id="clip0_8_3245"><path fill="#fff" id="rect13" d="M0 0h70v17.539H0z"/></clipPath><clipPath id="clip0-5"><path fill="#fff" d="M0 0h35v22H0z" id="path6-1-7"/></clipPath><clipPath id="clip1-9"><path fill="#fff" transform="translate(41 4)" d="M0 0h49v14H0z" id="path7-0-8"/></clipPath><clipPath id="clip0-4-1"><path fill="#fff" d="M0 0h35v22H0z" id="path8-1"/></clipPath><clipPath id="clip1-2-7"><path fill="#fff" transform="translate(41 4)" d="M0 0h49v14H0z" id="path9-2"/></clipPath><linearGradient id="paint0_linear_2654_286127" x1="39.666" y1="46.82" x2="39.666" y2="69.82" gradientUnits="userSpaceOnUse" gradientTransform="translate(7.036 -72.853)"><stop stop-color="#111D2E" id="stop19"/><stop offset=".212" stop-color="#051839" id="stop20"/><stop offset=".407" stop-color="#0A1B48" id="stop21"/><stop offset=".581" stop-color="#132E62" id="stop22"/><stop offset=".738" stop-color="#144B7E" id="stop23"/><stop offset=".873" stop-color="#136497" id="stop24"/><stop offset="1" stop-color="#1387B8" id="stop25"/></linearGradient><linearGradient id="paint0_linear" x1="70.407" y1="34.012" x2="54.75" y2="34.012" gradientUnits="userSpaceOnUse"><stop stop-color="#1F5CD7" id="stop9"/><stop offset="1" stop-color="#02AEFF" id="stop10"/></linearGradient><linearGradient xlink:href="#paint0_linear" id="linearGradient32" gradientUnits="userSpaceOnUse" x1="70.407" y1="34.012" x2="54.75" y2="34.012"/></defs><g style="fill:none" id="g25" transform="translate(25.02 17.37)"><g id="g2" transform="translate(0 .596)"><g id="g10" transform="matrix(1.04942 0 0 1.04942 -2.223 -2.576)"><g id="g18"><g id="g1" transform="matrix(1.13991 0 0 1.13991 -16.027 -.481)"><g id="g9" transform="translate(-7.367)"><g id="g3" transform="translate(23.274 3.67) scale(.61376)"><path d="M13.383 11.007c0-3.5 1.605-6.604 4.096-8.622A10.562 10.562 0 0 0 10.795 0C4.83 0 0 4.925 0 11.007s4.83 11.007 10.795 11.007c2.532 0 4.857-.889 6.698-2.37a11.102 11.102 0 0 1-4.11-8.637z" fill="#e30d17" id="path1-4"/><path d="M13.383 11.007c0 3.5 1.605 6.604 4.096 8.622a11.062 11.062 0 0 0 4.097-8.622c0-3.5-1.606-6.604-4.097-8.622a11.04 11.04 0 0 0-4.096 8.622z" fill="#eb610a" id="path2-4"/><path d="M34.239 16.948v-.325h-.125v-.084h.346v.084h-.138v.325zm.664 0v-.282l-.097.24h-.097l-.097-.24v.282h-.096v-.41h.138l.097.269.097-.268h.138v.41zM24.178 0c-2.533 0-4.858.889-6.698 2.37a11.062 11.062 0 0 1 4.096 8.623c0 3.5-1.605 6.604-4.096 8.622a10.641 10.641 0 0 0 6.698 2.37c5.965 0 10.795-4.924 10.795-11.006S30.129 0 24.178 0z" fill="#f69f00" id="path3-3"/></g><g id="g5" transform="translate(8.54 -.596)"><path d="M62.234 17.783H58.25l2.505-13.53h3.984zm-7.351-13.53-3.82 9.297-.452-1.99-1.355-6.113s-.165-1.23-1.89-1.23h-6.284L41 4.47s1.93.362 4.19 1.556l3.49 11.757h4.149l6.366-13.53zm31.42 13.53h3.655l-3.203-13.53H83.55c-1.479 0-1.848 1.013-1.848 1.013l-5.915 12.517h4.149l.82-2.026h5.094zm-4.395-4.812 2.095-5.064 1.19 5.064zM76.076 7.51l.575-2.894s-1.766-.579-3.614-.579c-1.972 0-6.695.76-6.695 4.486 0 3.509 5.545 3.545 5.545 5.39 0 1.845-4.97 1.52-6.613.362l-.575 3.039s1.766.76 4.518.76c2.711 0 6.86-1.23 6.86-4.631 0-3.51-5.587-3.835-5.587-5.39 0-1.592 3.902-1.375 5.586-.543z" fill="#fff" id="path4-1"/><path d="m50.611 11.524-1.355-6.077s-.165-1.23-1.89-1.23h-6.284L41 4.47s3.04.543 5.915 2.64c2.793 1.954 3.696 4.414 3.696 4.414z" fill="#f7a823" id="path5-6"/></g></g></g><g id="g27" transform="matrix(1.0524 0 0 1.0524 -.871 -4.17)"><g id="g8" transform="translate(-1.29)"><g id="g17"><g id="g4" transform="translate(1.29)" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.692 30.06c.48-.002 1.904-.135 2.508 1.98a783.05 783.05 0 0 1 1.943 7.003h.362c.954-3.42 1.609-5.754 1.965-7.003.61-2.137 2.135-1.979 2.745-1.979h4.706v15.2h-4.796v-8.958h-.322l-2.674 8.958H24.52l-2.674-8.964h-.322v8.964h-4.797v-15.2zm21.117.001v8.964h.383l3.253-7.371c.631-1.467 1.977-1.593 1.977-1.593h4.642v15.2h-4.897v-8.964h-.383l-3.189 7.371c-.631 1.46-2.04 1.593-2.04 1.593h-4.642v-15.2zm27.18 7.223c-.682 2.01-2.827 3.45-5.202 3.45H59.65v4.527h-4.656v-7.977z" fill="#67c09e" id="path6-5"/><path d="M65.01 30.061H54.75c.244 3.384 3.051 6.281 5.957 6.281h9.606c.554-2.813-1.354-6.281-5.302-6.281z" fill="url(#paint0_linear)" id="path7-2" style="fill:url(#linearGradient32)"/></g></g></g></g></g></g></g></g><style id="style1"></style></svg>\
 								<div class="refill-window__payment-label">#1</div>\
 							</button>\
 						</li>\
-						<li class="refill-window__payment" onclick="OnClickElement2(this)">\
+						<li class="refill-window__payment" onclick="OnClickElement(2)">\
 							<button class="refill-window__payment-btn" id="element2">\
 								<svg class="refill-window__payment-icon" viewBox="0 0 140 80" fill="none" version="1.1" id="svg25" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><defs id="defs25"><clipPath id="clip0_8_3245-6"><path fill="#fff" id="rect13-4" d="M0 0h70v17.539H0z"/></clipPath><clipPath id="clip1"><path fill="#fff" transform="translate(41 4)" d="M0 0h49v14H0z" id="path7-0"/></clipPath><clipPath id="clip0-4"><path fill="#fff" d="M0 0h35v22H0z" id="path8"/></clipPath><clipPath id="clip1-2"><path fill="#fff" transform="translate(41 4)" d="M0 0h49v14H0z" id="path9"/></clipPath><clipPath id="clip0"><path fill="#fff" d="M0 0h35v22H0z" id="path6-1"/></clipPath><clipPath id="clip0_8_3245"><path fill="#fff" id="rect13" d="M0 0h70v17.539H0z"/></clipPath><clipPath id="clip0-5"><path fill="#fff" d="M0 0h35v22H0z" id="path6-1-7"/></clipPath><clipPath id="clip1-9"><path fill="#fff" transform="translate(41 4)" d="M0 0h49v14H0z" id="path7-0-8"/></clipPath><clipPath id="clip0-4-1"><path fill="#fff" d="M0 0h35v22H0z" id="path8-1"/></clipPath><clipPath id="clip1-2-7"><path fill="#fff" transform="translate(41 4)" d="M0 0h49v14H0z" id="path9-2"/></clipPath><linearGradient id="paint0_linear_2654_286127" x1="39.666" y1="46.82" x2="39.666" y2="69.82" gradientUnits="userSpaceOnUse" gradientTransform="translate(7.036 -72.853)"><stop stop-color="#111D2E" id="stop19"/><stop offset=".212" stop-color="#051839" id="stop20"/><stop offset=".407" stop-color="#0A1B48" id="stop21"/><stop offset=".581" stop-color="#132E62" id="stop22"/><stop offset=".738" stop-color="#144B7E" id="stop23"/><stop offset=".873" stop-color="#136497" id="stop24"/><stop offset="1" stop-color="#1387B8" id="stop25"/></linearGradient><linearGradient id="paint0_linear" x1="70.407" y1="34.012" x2="54.75" y2="34.012" gradientUnits="userSpaceOnUse"><stop stop-color="#1F5CD7" id="stop9"/><stop offset="1" stop-color="#02AEFF" id="stop10"/></linearGradient><linearGradient xlink:href="#paint0_linear" id="linearGradient32" gradientUnits="userSpaceOnUse" x1="70.407" y1="34.012" x2="54.75" y2="34.012"/></defs><g style="fill:none" id="g25" transform="translate(25.02 17.37)"><g id="g2" transform="translate(0 .596)"><g id="g10" transform="matrix(1.04942 0 0 1.04942 -2.223 -2.576)"><g id="g18"><g id="g1" transform="matrix(1.13991 0 0 1.13991 -16.027 -.481)"><g id="g9" transform="translate(-7.367)"><g id="g3" transform="translate(23.274 3.67) scale(.61376)"><path d="M13.383 11.007c0-3.5 1.605-6.604 4.096-8.622A10.562 10.562 0 0 0 10.795 0C4.83 0 0 4.925 0 11.007s4.83 11.007 10.795 11.007c2.532 0 4.857-.889 6.698-2.37a11.102 11.102 0 0 1-4.11-8.637z" fill="#e30d17" id="path1-4"/><path d="M13.383 11.007c0 3.5 1.605 6.604 4.096 8.622a11.062 11.062 0 0 0 4.097-8.622c0-3.5-1.606-6.604-4.097-8.622a11.04 11.04 0 0 0-4.096 8.622z" fill="#eb610a" id="path2-4"/><path d="M34.239 16.948v-.325h-.125v-.084h.346v.084h-.138v.325zm.664 0v-.282l-.097.24h-.097l-.097-.24v.282h-.096v-.41h.138l.097.269.097-.268h.138v.41zM24.178 0c-2.533 0-4.858.889-6.698 2.37a11.062 11.062 0 0 1 4.096 8.623c0 3.5-1.605 6.604-4.096 8.622a10.641 10.641 0 0 0 6.698 2.37c5.965 0 10.795-4.924 10.795-11.006S30.129 0 24.178 0z" fill="#f69f00" id="path3-3"/></g><g id="g5" transform="translate(8.54 -.596)"><path d="M62.234 17.783H58.25l2.505-13.53h3.984zm-7.351-13.53-3.82 9.297-.452-1.99-1.355-6.113s-.165-1.23-1.89-1.23h-6.284L41 4.47s1.93.362 4.19 1.556l3.49 11.757h4.149l6.366-13.53zm31.42 13.53h3.655l-3.203-13.53H83.55c-1.479 0-1.848 1.013-1.848 1.013l-5.915 12.517h4.149l.82-2.026h5.094zm-4.395-4.812 2.095-5.064 1.19 5.064zM76.076 7.51l.575-2.894s-1.766-.579-3.614-.579c-1.972 0-6.695.76-6.695 4.486 0 3.509 5.545 3.545 5.545 5.39 0 1.845-4.97 1.52-6.613.362l-.575 3.039s1.766.76 4.518.76c2.711 0 6.86-1.23 6.86-4.631 0-3.51-5.587-3.835-5.587-5.39 0-1.592 3.902-1.375 5.586-.543z" fill="#fff" id="path4-1"/><path d="m50.611 11.524-1.355-6.077s-.165-1.23-1.89-1.23h-6.284L41 4.47s3.04.543 5.915 2.64c2.793 1.954 3.696 4.414 3.696 4.414z" fill="#f7a823" id="path5-6"/></g></g></g><g id="g27" transform="matrix(1.0524 0 0 1.0524 -.871 -4.17)"><g id="g8" transform="translate(-1.29)"><g id="g17" transform="translate(-.01)"><g id="g4" transform="translate(-.153)" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.692 30.06c.48-.002 1.904-.135 2.508 1.98a783.05 783.05 0 0 1 1.943 7.003h.362c.954-3.42 1.609-5.754 1.965-7.003.61-2.137 2.135-1.979 2.745-1.979h4.706v15.2h-4.796v-8.958h-.322l-2.674 8.958H24.52l-2.674-8.964h-.322v8.964h-4.797v-15.2zm21.117.001v8.964h.383l3.253-7.371c.631-1.467 1.977-1.593 1.977-1.593h4.642v15.2h-4.897v-8.964h-.383l-3.189 7.371c-.631 1.46-2.04 1.593-2.04 1.593h-4.642v-15.2zm27.18 7.223c-.682 2.01-2.827 3.45-5.202 3.45H59.65v4.527h-4.656v-7.977z" fill="#67c09e" id="path6-5"/><path d="M65.01 30.061H54.75c.244 3.384 3.051 6.281 5.957 6.281h9.606c.554-2.813-1.354-6.281-5.302-6.281z" fill="url(#paint0_linear)" id="path7-2" style="fill:url(#linearGradient32)"/></g><g style="fill:none" id="g6" transform="translate(-119.608 -144.74)"><g id="g7" transform="matrix(.12643 0 0 .12643 118.754 174.83)"><path d="m0 26.12 14.532 25.975v15.844L.017 93.863z" fill="#5b57a2" id="path4"/><path d="m55.797 42.643 13.617-8.346 27.868-.026-41.485 25.414z" fill="#d90751" id="path5"/><path d="m55.72 25.967.077 34.39-14.566-8.95V0l14.49 25.967z" fill="#fab718" id="path6"/><path d="m97.282 34.271-27.869.026-13.693-8.33L41.231 0l56.05 34.271z" fill="#ed6f26" id="path7"/><path d="M55.797 94.007V77.322l-14.566-8.78.008 51.458z" fill="#63b22f" id="path8-3"/><path d="M69.38 85.737 14.531 52.095 0 26.12l97.223 59.583-27.844.034z" fill="#1487c9" id="path9-8"/><path d="m41.24 120 14.556-25.993 13.583-8.27 27.843-.034z" fill="#017f36" id="path10"/><path d="m.017 93.863 41.333-25.32-13.896-8.526-12.922 7.922z" fill="#984995" id="path11"/></g></g><g fill="none" fill-rule="evenodd" id="g1-8" transform="matrix(.47455 0 0 .47455 75.405 30.074)"><circle cx="16" cy="16" r="16" fill="#26a17b" id="circle1"/><path fill="#fff" d="M17.922 17.383v-.002c-.11.008-.677.042-1.942.042-1.01 0-1.721-.03-1.971-.042v.003c-3.888-.171-6.79-.848-6.79-1.658 0-.809 2.902-1.486 6.79-1.66v2.644c.254.018.982.061 1.988.061 1.207 0 1.812-.05 1.925-.06v-2.643c3.88.173 6.775.85 6.775 1.658 0 .81-2.895 1.485-6.775 1.657m0-3.59v-2.366h5.414V7.819H8.595v3.608h5.414v2.365c-4.4.202-7.709 1.074-7.709 2.118 0 1.044 3.309 1.915 7.709 2.118v7.582h3.913v-7.584c4.393-.202 7.694-1.073 7.694-2.116 0-1.043-3.301-1.914-7.694-2.117" id="path1"/></g></g></g></g></g></g></g></g><style id="style1"></style></svg>\
 								<div class="refill-window__payment-label">#2</div>\
 							</button>\
 						</li>\
-						<li class="refill-window__payment" onclick="OnClickElement4(this)">\
+						<li class="refill-window__payment" onclick="OnClickElement(4)">\
 							<button class="refill-window__payment-btn" id="element4">\
 								<svg class="refill-window__payment-icon" viewBox="0 0 140 80" fill="none" version="1.1" id="svg25" sodipodi:docname="card.svg" inkscape:version="1.3 (0e150ed6c4, 2023-07-21)" xml:space="preserve" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview id="namedview25" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#505050" inkscape:zoom="10.071221" inkscape:cx="57.58984" inkscape:cy="38.178092" inkscape:window-width="2560" inkscape:window-height="1361" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="g25" /><defs id="defs25"><linearGradient id="paint0_linear_2654_286127" x1="39.6665" y1="46.8203" x2="39.6665" y2="69.8203" gradientUnits="userSpaceOnUse" gradientTransform="translate(7.0357466,-72.852649)"><stop stop-color="#111D2E" id="stop19" /><stop offset="0.212" stop-color="#051839" id="stop20" /><stop offset="0.407" stop-color="#0A1B48" id="stop21" /><stop offset="0.581" stop-color="#132E62" id="stop22" /><stop offset="0.738" stop-color="#144B7E" id="stop23" /><stop offset="0.873" stop-color="#136497" id="stop24" /><stop offset="1" stop-color="#1387B8" id="stop25" /></linearGradient><clipPath id="clip0"><path fill="#fff" d="M0 0h35v22H0z" id="path6-1" /></clipPath><clipPath id="clip1"><path fill="#fff" transform="translate(41 4)" d="M0 0h49v14H0z" id="path7-0" /></clipPath><clipPath id="clip0-4"><path fill="#fff" d="M0 0h35v22H0z" id="path8" /></clipPath><clipPath id="clip1-2"><path fill="#fff" transform="translate(41 4)" d="M0 0h49v14H0z" id="path9" /></clipPath><linearGradient id="paint0_linear" x1="70.4073" y1="34.012" x2="54.75" y2="34.012" gradientUnits="userSpaceOnUse"><stop stop-color="#1F5CD7" id="stop9" /><stop offset="1" stop-color="#02AEFF" id="stop10" /></linearGradient><linearGradient inkscape:collect="always" xlink:href="#paint0_linear" id="linearGradient32" gradientUnits="userSpaceOnUse" x1="70.4073" y1="34.012" x2="54.75" y2="34.012" /><clipPath id="clip0_8_3245"><rect width="70" height="17.5389" fill="white" id="rect13" /></clipPath></defs><g style="fill:none" id="g25" transform="translate(25.0209,17.3695)"><g id="g2" transform="translate(0,0.59575746)"><g id="g1" transform="translate(-8.5391866)"><g id="g3" transform="translate(8.5391866,-0.59575746)"><path d="m 13.3828,11.0071 c 0,-3.4997 1.6053,-6.6043 4.0964,-8.6222 C 15.6386,0.889 13.3136,0 10.7948,0 4.83,0 0,4.925 0,11.0071 c 0,6.0821 4.83,11.007 10.7948,11.007 2.5326,0 4.8576,-0.889 6.6983,-2.3707 -2.505,-2.0321 -4.1103,-5.1508 -4.1103,-8.6363 z" fill="#e30d17" id="path1-4" /><path d="m 13.3828,11.0072 c 0,3.4997 1.6054,6.6042 4.0965,8.6222 2.4911,-2.018 4.0965,-5.1225 4.0965,-8.6222 0,-3.4997 -1.6054,-6.6042 -4.0965,-8.6222 -2.4911,2.0039 -4.0965,5.1225 -4.0965,8.6222 z" fill="#eb610a" id="path2-4" /><path d="m 34.2388,16.9481 v -0.3246 h -0.1245 v -0.0847 h 0.3459 v 0.0847 h -0.1384 v 0.3246 z m 0.6643,0 v -0.2823 l -0.0969,0.2399 h -0.0968 l -0.0969,-0.2399 v 0.2823 h -0.0969 v -0.4093 h 0.1384 l 0.0969,0.2681 0.0969,-0.2681 h 0.1383 v 0.4093 z M 24.1778,0 c -2.5326,0 -4.8577,0.889 -6.6983,2.3708 2.4911,2.018 4.0965,5.1225 4.0965,8.6221 0,3.4997 -1.6054,6.6043 -4.0965,8.6222 1.8406,1.4818 4.1657,2.3708 6.6983,2.3708 5.9648,0 10.7948,-4.925 10.7948,-11.0071 C 34.9726,4.8968 30.1288,0 24.1778,0 Z" fill="#f69f00" id="path3-3" /></g><g id="g5" transform="translate(8.5391866,-0.59575746)"><path d="M 62.2341,17.7826 H 58.25 L 60.7554,4.2529 h 3.9841 z M 54.8826,4.253 51.0629,13.55 50.6111,11.5604 49.2557,5.4467 c 0,0 -0.1643,-1.23 -1.8894,-1.23 H 41.0821 L 41,4.47 c 0,0 1.9304,0.3618 4.1894,1.5556 l 3.4912,11.7571 H 52.829 L 59.1953,4.253 Z m 31.4202,13.5296 h 3.6554 L 86.7546,4.2529 h -3.2037 c -1.4787,0 -1.8483,1.013 -1.8483,1.013 l -5.9145,12.5167 h 4.1484 l 0.8214,-2.0258 h 5.0931 z m -4.3948,-4.8113 2.0947,-5.0646 1.1911,5.0646 z M 76.0764,7.509 76.6514,4.615 c 0,0 -1.7661,-0.5789 -3.6144,-0.5789 -1.9715,0 -6.6949,0.7597 -6.6949,4.4858 0,3.5091 5.5449,3.5452 5.5449,5.3902 0,1.845 -4.9698,1.5194 -6.6128,0.3618 l -0.575,3.0387 c 0,0 1.7662,0.7597 4.518,0.7597 2.7108,0 6.8592,-1.23 6.8592,-4.6305 0,-3.509 -5.5859,-3.8346 -5.5859,-5.3902 0,-1.5917 3.9019,-1.3746 5.5859,-0.5426 z" fill="#ffffff" id="path4-1" /><path d="M 50.6111,11.5243 49.2557,5.4468 c 0,0 -0.1643,-1.23 -1.8894,-1.23 H 41.0821 L 41,4.47 c 0,0 3.0394,0.5427 5.9145,2.6409 2.793,1.9534 3.6966,4.4134 3.6966,4.4134 z" fill="#f7a823" id="path5-6" /></g></g><g id="g27" transform="translate(1.4117088,-0.59575746)"><path fill-rule="evenodd" clip-rule="evenodd" d="m 21.6915,30.0609 c 0.4796,-0.0029 1.9048,-0.1362 2.5085,1.9793 0.4067,1.425 1.0545,3.7592 1.9434,7.0026 h 0.362 c 0.9533,-3.4195 1.6082,-5.7537 1.9646,-7.0026 0.61,-2.1375 2.135,-1.9792 2.745,-1.9792 h 4.7063 v 15.2 h -4.7967 v -8.9576 h -0.3217 l -2.674,8.9576 H 24.52 l -2.674,-8.9643 h -0.3217 v 8.9643 h -4.7968 v -15.2 z m 21.1179,10e-5 v 8.9643 h 0.3827 l 3.2526,-7.3713 c 0.6314,-1.4669 1.9771,-1.593 1.9771,-1.593 h 4.6419 v 15.2 h -4.897 v -8.9643 h -0.3826 l -3.1889,7.3713 c -0.6314,1.4602 -2.0409,1.593 -2.0409,1.593 h -4.6418 v -15.2 z m 27.1804,7.2231 c -0.6831,2.0097 -2.8282,3.449 -5.2032,3.449 h -5.1354 v 4.5279 h -4.6567 v -7.9769 z" fill="#67c09e" id="path6-5" /><path fill-rule="evenodd" clip-rule="evenodd" d="M 65.0109,30.061 H 54.75 c 0.2442,3.3841 3.0511,6.281 5.9568,6.281 h 9.6063 c 0.5543,-2.8125 -1.3541,-6.281 -5.3022,-6.281 z" fill="url(#paint0_linear)" id="path7-2" style="fill:url(#linearGradient32)" /></g></g></g><style id="style1">.st1{fill:#fff}</style></svg>\
 								<div class="refill-window__payment-label">#3</div>\
 							</button>\
 						</li>\
-						<li class="refill-window__payment" onclick="OnClickElement5(this)">\
+						<li class="refill-window__payment" onclick="OnClickElement(5)">\
 							<button class="refill-window__payment-btn" id="element5">\
 								<img class="refill-window__payment-icon" src="https://media.rustylifes.com/img/donate/Paypal.svg">\
 							</button>\
 						</li>\
-						<li class="refill-window__payment" onclick="OnClickElement8(this)">\
+						<li class="refill-window__payment" onclick="OnClickElement(8)">\
 							<button class="refill-window__payment-btn" id="element8">\
 								<img class="refill-window__payment-icon" src="https://media.rustylifes.com/img/donate/Cryptos.svg">\
 							</button>\
 						</li>\
-						<li class="refill-window__payment" onclick="OnClickElement9(this)">\
+						<li class="refill-window__payment" onclick="OnClickElement(9)">\
 							<button class="refill-window__payment-btn" id="element9">\
 								<img class="refill-window__payment-icon" src="https://media.rustylifes.com/img/donate/Skins.svg">\
 							</button>\
 						</li>\
-						<li class="refill-window__payment" onclick="OnClickElement10(this)">\
+						<li class="refill-window__payment" onclick="OnClickElement(10)">\
 							<button class="refill-window__payment-btn" id="element10">\
 								<img class="refill-window__payment-icon" src="https://media.rustylifes.com/img/donate/Telegram.svg">\
 							</button>\
 						</li>\
-						<li class="refill_btn-disabled"></li>\
+						<li class="refill_btn-disabled refill-window__payment-btn"></li>\
 					</ul>\
 					</div>\
 				<div class="refill-window__bonus"><span class="refill-window__bonus-text" id="bonus-text"></span></div>\
@@ -1372,108 +1372,17 @@ async function getLink(service, lang) {
     window.open(result)
 }
 
-var colorgrayhover = "#272730";
-function OnClickElement1(event) { /*Tome*/
+function OnClickElement(event) {
 	ResetBtns();
 
-	let element = document.getElementById('element1');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 1;
+	let element = document.getElementById(`element${event}`);
+	element.style.backgroundColor = "#272730";
+	btn_unlocked = event;
 	UnLockBuyBtn();
 	document.getElementById('bonus-text').innerText = "";
 	document.getElementById('buybtn').removeAttribute("href");
-	document.getElementById("amount-wrapper").style.display = "block";
+	document.getElementById("amount-wrapper").style.display = [9,10].includes(event) ? 'none' : "block";
 	document.getElementById('buybtn').innerText = lang.refilButton;
-}
-
-function OnClickElement2(event) { /*CENT.APP*/
-	ResetBtns();
-	
-	let element = document.getElementById('element2');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 2;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
-	document.getElementById("amount-wrapper").style.display = "block";
-	document.getElementById('buybtn').innerText = lang.refilButton;
-}
-
-function OnClickElement3(event) { /*ENOT.IO*/
-	ResetBtns();
-	
-	let element = document.getElementById('element3');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 3;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
-	document.getElementById("amount-wrapper").style.display = "block";
-	document.getElementById('buybtn').innerText = lang.refilButton;
-}
-
-function OnClickElement4(event) { /*FK*/
-	ResetBtns();
-	
-	let element = document.getElementById('element4');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 4;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById("amount-wrapper").style.display = "block";
-	document.getElementById('buybtn').innerText = lang.refilButton;
-}
-
-function OnClickElement5(event) { /*tebex*/ 
-	ResetBtns();
-	
-	let element = document.getElementById('element5');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 5;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
-	document.getElementById("amount-wrapper").style.display = "none";
-	document.getElementById('buybtn').innerText = lang.refilButton;
-}
-
-function OnClickElement8(event) { /*Crypto*/ 
-	ResetBtns();
-	
-	let element = document.getElementById('element8');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 8;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
-	document.getElementById("amount-wrapper").style.display = "block";
-	document.getElementById('buybtn').innerText = lang.refilButton;
-}
-
-function OnClickElement9(event) { /*SkinsBack*/ 
-	ResetBtns();
-
-	let element = document.getElementById('element9');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 9;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
-	document.getElementById("amount-wrapper").style.display = "none";
-	document.getElementById('buybtn').innerText = lang.refilButton;
-}
-
-function OnClickElement10(event) { /*Telegram*/ 
-	ResetBtns();
-	
-	let element = document.getElementById('element10');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 10;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
-	document.getElementById("amount-wrapper").style.display = "none";
-	document.getElementById('buybtn').innerText = lang.contactButton;
 }
 
 function OpenPay(el, usefade = true, zind = false) {
